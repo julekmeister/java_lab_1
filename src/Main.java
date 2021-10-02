@@ -22,11 +22,28 @@ public class Main {
             System.out.print("Nr indeksu: ");
             String ind=sc.next();
 
-            System.out.printf("%s"+name+ "%s"+lname+"%s"+age+"%s"+ind    ,"\tImię: ","\tNazwisko: ","\tWiek: ","\tNr Indexu: ");
+            System.out.printf("%s"+name+ "%s"+lname+"%s"+age+"%s"+ind +"\n"   ,"\tImię: ","\tNazwisko: ","\tWiek: ","\tNr Indexu: ");
 
         /*  zad.2 zadeklarować 2 zmienne typu int i wykonać na nich obliczenia arytmetyczn (+, -, *, /, %)
         *   wynik wyświetlić w konsoli programu
         */
+
+            System.out.print("Podaj X: ");
+            int x=sc.nextInt();
+            System.out.print("Podaj Y: ");
+            int y=sc.nextInt();
+
+            double Z;
+            Z=x+y;
+            System.out.println("X + Y = "+Z);
+            Z=x-y;
+            System.out.println("X - Y = "+Z);
+            Z=x*y;
+            System.out.println("X * Y = "+Z);
+            Z=x/y;
+            System.out.println("X / Y = "+ Z);
+            Z=x%y;
+            System.out.println("X mod Y = "+Z);
 
     }
 }
