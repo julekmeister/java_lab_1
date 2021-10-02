@@ -56,5 +56,9 @@ public class Main {
         System.out.println("((x > y) || (a && b)) : " + ((x > y) || (a && c))); // true
 
         /* zad.1 proszę dodać kilka złożonych operacji uzywając kilku operatorów */
+        System.out.println("\n(A i B) lub C: "+ ((a&&b)||c) );
+        System.out.println("\nNie(A i NieB) lub (NieA lub NieC) i C: "+ (!(a&&!b)||(!c||!c)&&c) );
+        System.out.println("\n(X mniejszy lub równy Y) lub (A lub NieC) i Z różne od X : "+ ((x<=y)||(a|| !c)&&(z!=x)  ));
+
     }
 }
