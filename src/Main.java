@@ -37,6 +37,42 @@ public class Main {
         *  */
 
 
+        // a)
+        int liczbaA=2; int liczbaB=3; double x;
+
+        x=liczbaA+liczbaB;
+        System.out.print("\n"+x);
+
+        x=liczbaA-liczbaB;
+        System.out.print("\n"+x);
+
+        x=liczbaA*liczbaB;
+        System.out.print("\n"+x);
+
+        x=liczbaA/liczbaB;
+        System.out.print("\n"+x);
+
+        x=liczbaA%liczbaB;
+        System.out.print("\n"+x);
+
+        // b)
+        double liczbaX=1.5; double liczbaY=3.3;
+
+        x=liczbaX+liczbaY;
+        System.out.print("\n"+x);
+
+        x=liczbaX-liczbaY;
+        System.out.print("\n"+x);
+
+        x=liczbaX*liczbaY;
+        System.out.print("\n"+x);
+
+        x=liczbaX/liczbaY;
+        System.out.print("\n"+x);
+
+        x=liczbaX%liczbaY;
+        System.out.print("\n"+x);
+
 
     }
 }
