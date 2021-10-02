@@ -9,6 +9,25 @@ public class Main {
         /* ćw.2 */
 
         /*   zad.1 zadeklaruj i zainicjalizuj zmienne różnych typów i wyświetl w konsoli (im więcej tym lepiej ;) ) */
+    byte zb=15;
+    short zs=2;
+    int zi=2000;
+    long zl=9223372036854775806L;
+    float zf=0.1234F;
+    double zd=123.123456789012345;
+    boolean zbo=false;
+    char zc='C';
+    String zst="Hello świecie";
+
+        System.out.printf("\n%s byte = " +zb,"zmienna");
+        System.out.printf("\n%s short = " +zs,"zmienna");
+        System.out.printf("\n%s int = " +zi,"zmienna");
+        System.out.printf("\n%s long = " +zl,"zmienna");
+        System.out.printf("\n%s float = " +zf,"zmienna");
+        System.out.printf("\n%s double = " +zd,"zmienna");
+        System.out.printf("\n%s boolean = " +zbo,"zmienna");
+        System.out.printf("\n%s char = " +zc,"zmienna");
+        System.out.printf("\n%s String = " +zst,"zmienna");
 
         /*
         *    zad.2 Napisz kod który będzie wykonywał operacje: dodawania, odejmowania,
